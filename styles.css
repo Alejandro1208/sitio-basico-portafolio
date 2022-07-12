@@ -1,0 +1,108 @@
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,129,1) 31%, rgba(0,212,255,1) 100%);
+}
+
+nav a{
+    text-decoration: none;
+    padding-left: 5px;
+    color: white;
+    font-size: 20px;
+    
+}
+
+.menu{
+    text-align: center;
+}
+
+li,ol{
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+}
+
+.nombre{
+    text-align: center;
+}
+
+.trabajos{
+    padding-top: 50px;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 20px;
+    color: white;
+}
+
+.presentacion{
+    background-image: url(./img/presentacionfondo.jpg);
+    background-attachment: fixed;
+    opacity: 70%;
+}
+
+.presentacion p{
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+   color: white;
+}
+
+
+/*estilo de letra*/
+h1,h2,h3,p{
+    font-family: 'Raleway', sans-serif;
+    margin: auto;
+    color: white;
+}
+
+h1{
+    font-size: 70px;
+}
+h2{
+    font-size: 40px;
+}
+
+.banner{
+    margin: auto;
+    text-align: center;
+}
+
+img{
+    max-width: 70vh;
+    max-height: 70vh;
+    border-radius: 50%;
+}
+
+.contacto{
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+
+.trabajos img{
+padding-top: 40px;
+}
+
+input,textarea{
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+
+
+label{
+    padding-top: 10px;
+    margin-top: 10px;
+}
+form{
+    padding-top: 20px;
+}
+
+label{
+    color: white;
+}
+

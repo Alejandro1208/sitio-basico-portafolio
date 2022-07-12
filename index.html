@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Alejandro Sabater</title>
+  </head>
+
+  <body>
+    <nav class="menu">
+      <li>
+        <ol>
+          <a href="#inicio">Inicio</a>
+        </ol>
+        <ol>
+          <a href="#trabajos">Trabajos</a>
+        </ol>
+        <ol>
+          <a href="#contacto">Contacto</a>
+        </ol>
+      </li>
+    </nav>
+
+    <div class="nombre" id="inicio">
+      <h1>Alejandro Sabater</h1>
+      <h2>Desarrollador web</h2>
+    </div>
+
+    <div class="banner">
+      <img src="./img/banner.jpg" alt="Banner" />
+    </div>
+   
+    <div class="presentacion">
+      <div class="texto"></div>
+      <h3>Bienvenido a mi portafolio</h3>
+      <p>Tengo 29 años y soy desarrollador web, creo sitios web para emprendimientos, curriculum vitae y sitios web de presentacion</p>
+    </div>
+
+    <div class="trabajos" id="trabajos">
+      <h2>Mis trabajos</h2>
+      <a href="https://altorancho.netlify.app/" target="_blank"><img src="./img/altoRancho.png" alt="Alto Rancho"></a>
+      <a href="https://finossabores.netlify.app/" target="_blank"><img src="./img/finossabores.png" alt="Finos Sabores"></a>
+      <a href="https://guapuramake.netlify.app/" target="_blank"><img src="./img/guapura.png" alt="Guapura Make"></a>
+    </div>
+
+    <div class="contacto" id="contacto">
+      <h2>Contactame!</h2>
+      <form action="" method="post">
+
+        <label for="nombre">Nombre</label>
+        <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+        
+        <label for="numero">Numero</label>
+        <input type="number" name="numero" placeholder="Numero de telefono" id="numero">
+        
+        <label for="mail">Mail</label>
+        <input type="mail"name="email" placeholder="Mail" id="mail">
+     
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Dejanos tus mensaje!"></textarea>
+        
+        <input type="submit" value="Enviar ! " style="color: white; background: rgb(2,0,36);
+        background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(47,47,129,1) 31%, rgba(0,212,255,1) 100%);;">
+      </form>
+
+    </div>
+    
+  </body>
+</html>
